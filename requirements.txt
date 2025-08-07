@@ -1,14 +1,14 @@
 weather_etl_project/
-├── dags/                           # DAG Airflow
-│   └── weather_etl_dag.py         # File DAG chính
-├── etl/                            # Logic ETL (Python)
-│   ├── extract.py                 # Lấy dữ liệu từ API
-│   ├── transform.py               # Làm sạch dữ liệu
-│   ├── load.py                    # Đẩy lên BigQuery
+├── dags/                          
+│   └── weather_etl_dag.py         
+├── etl/                            
+│   ├── extract.py                 
+│   ├── transform.py               
+│   ├── load.py                    
 │   └── __init__.py
 ├── config/
-│   └── cities.json                # Danh sách thành phố
-├── key.json                       # Service account GCP (KHÔNG commit)
+│   └── cities.json                
+├── key.json                       
 ├── .gitignore
 ├── requirements.txt
 └── README.md
